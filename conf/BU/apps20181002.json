@@ -1,0 +1,98 @@
+{
+    "washing_machine": {
+        "key": "washing machine",
+        "seq_length": 1024,
+        "train_buildings": [
+            1,
+            5
+        ],
+        "validation_buildings": [
+            2
+        ],
+        "max_power": 2500,
+        "on_power_threshould": 20,
+        "min_on_duration": 1800,
+        "min_off_duration": 160,
+        "appliances": [
+            "washe dryer",
+            "washing machine"
+        ]
+    },
+    "fridge": {
+        "key": "fridge",
+        "seq_length": 512,
+        "train_buildings": [
+            1,
+            4,
+            5
+        ],
+        "validation_buildings": [
+            2
+        ],
+        "max_power": 300,
+        "on_power_threshould": 50,
+        "min_on_duration": 60,
+        "min_off_duration": 12,
+        "appliances": [
+            "fridge freezer",
+            "fridge",
+            "freezer"
+        ]
+    },
+    "kettle": {
+        "key": "kettle",
+        "seq_length": 100,
+        "train_buildings": [
+            1,
+            3,
+            4,
+            5
+        ],
+        "validation_buildings": [
+            2
+        ],
+        "max_power": 3100,
+        "on_power_threshould": 2000,
+        "min_on_duration": 12,
+        "min_off_duration": 0,
+        "appliances": [
+            "kettle"
+        ]
+    },
+    "dish_washer": {
+        "key": "dish washer",
+        "seq_length": 1536,
+        "train_buildings": [
+            1,
+            5
+        ],
+        "validation_buildings": [
+            2
+        ],
+        "max_power": 2500,
+        "on_power_threshould": 10,
+        "min_on_duration": 1800,
+        "min_off_duration": 1800,
+        "appliances": [
+            "dish washer"
+        ]
+    },
+    "microwave": {
+        "key": "microwave",
+        "seq_length": 288,
+        "train_buildings": [
+            1,
+            5
+        ],
+        "validation_buildings": [
+            2
+        ],
+        "max_power": 3000,
+        "on_power_threshould": 200,
+        "min_on_duration": 12,
+        "min_off_duration": 30,
+        "appliances": [
+            "microwave"
+        ]
+    }
+}
